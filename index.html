@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/622588a2-0031-4722-9f72-13355587a9a2/SC%20Logo.png?v=1643444246598"
+    />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>SC Official Website</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://games-sc.glitch.me/" />
+    <meta name="description" content="SC Official Website" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="SC Website" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://games-sc.glitch.me/" />
+    <meta property="og:description" content="SC Official Website" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/622588a2-0031-4722-9f72-13355587a9a2/SC%20Logo.png?v=1643444246598"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="headerdiv">
+      <a href="https://games-sc.glitch.me"><img src="https://cdn.glitch.global/622588a2-0031-4722-9f72-13355587a9a2/SC%20Logo.png?v=1643444246598" height="100" width="100"/></a>
+
+      <button
+        id="loginBtn"
+        width="50"
+        height="50"
+        alt="Account"
+        class="buttonblack"
+        type="button"
+      >
+        Login
+      </button>
+    </div>
+
+    <div class="content" role="main">
+      <!-- This is the start of content for our page -->
+      <div class="container">
+        <img
+          src="https://cdn.glitch.global/622588a2-0031-4722-9f72-13355587a9a2/Banner.png?v=1643448599614"
+          style="width: 100%"
+        />
+      </div>
+      <h1>Our Apps And Games</h1>
+      <div class="container">
+        <a href="https://games-sc.glitch.me/ferb">
+          <a href="https://games-sc.glitch.me/ferb" class="gameappbtn">
+            <img
+              height="150px"
+              width="150px"
+              src="https://cdn.glitch.global/622588a2-0031-4722-9f72-13355587a9a2/FerbA2%20Logo.png?v=1647621475643"
+            />
+          </a>
+        </a>
+        <a href="https://games-sc.glitch.me/chappium">
+          <a href="https://games-sc.glitch.me/chappium" class="gameappbtn">
+            <img
+              height="150px"
+              width="150px"
+              src="https://cdn.glitch.global/622588a2-0031-4722-9f72-13355587a9a2/ChappiumX%20Logo.png?v=1643738262832"
+            />
+          </a>
+        </a>
+      </div>
+    </div>
+  </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  <!-- Our script must be loaded after firebase references -->
+  <script src="https://games-sc.glitch.me/index.js"></script>
+</html>
