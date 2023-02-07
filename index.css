@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(to right, #003090, #1050ff);
+}
+
+footer {
+  background-color: #cccccc;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #e0e0e0;
+}
