@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(to right, #003090, #1050ff);
+}
+
+footer {
+  padding: 1em;
+  margin: 0 auto;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background: linear-gradient(to right, #0000ff, #206496);
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+}
