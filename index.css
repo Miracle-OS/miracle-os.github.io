@@ -5,11 +5,12 @@ body {
 }
 
 footer {
-  background-color: #777777;
+  background-color: #222222;
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
   color: #e0e0e0;
   padding: 2em;
+  corner-radius: 1em;
 }
