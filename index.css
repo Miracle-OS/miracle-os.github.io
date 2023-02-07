@@ -8,6 +8,8 @@ footer {
   padding: 1em;
   margin: 0 auto;
   bottom: 20px;
+  left: 0;
+  right: 0;
   position: fixed;
   background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
   border-radius: 10px;
