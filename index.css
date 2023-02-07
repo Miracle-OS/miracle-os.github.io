@@ -11,7 +11,7 @@ footer {
   left: 0;
   right: 0;
   position: fixed;
-  background: linear-gradient(to bottom, #0000ff, #206496);
+  background: linear-gradient(to right, #0000ff, #206496);
   border-radius: 10px;
   width: 50%;
   text-align: center;
