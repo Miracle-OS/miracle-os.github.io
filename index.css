@@ -12,7 +12,7 @@ footer {
   right: 0;
   position: fixed;
   background-color: #000000;
-  background-opacity: 50;
+  background-opacity: 0.5;
   border-radius: 10px;
   width: 50%;
   text-align: center;
