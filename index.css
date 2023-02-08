@@ -11,7 +11,8 @@ footer {
   left: 0;
   right: 0;
   position: fixed;
-  background: #00000000;
+  background-color: #000000;
+  background-opacity: 50;
   border-radius: 10px;
   width: 50%;
   text-align: center;
