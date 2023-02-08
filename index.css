@@ -17,3 +17,33 @@ footer {
   width: 50%;
   text-align: center;
 }
+
+/* Add a black background color to the top navigation */
+.navbar {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  border-radius: 10px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
